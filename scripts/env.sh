@@ -15,17 +15,7 @@
 # Declare the function that echoes messages
 # The first parameter is the message
 
-#Echo delimiter
-function delimiter() {
-	echo -e "\n---------------------------\n"
-}
-
-# Echo message
-function message() {
-	delimiter
-	echo $1
-	delimiter
-}
+source util.sh
 
 # Check if $1 service is up and running
 # If servise is down the script will stop

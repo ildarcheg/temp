@@ -21,17 +21,7 @@ while getopts ":a:p:" opt; do
   esac
 done
 
-#Echo delimiter
-function delimiter() {
-	echo -e "\n---------------------------\n"
-}
-
-# Echo message
-function message() {
-	delimiter
-	echo $1
-	delimiter
-}
+source util.sh
 
 # SET UP FRESH SERVER MANAGER INFOBASE
 message "set up Fresh Server"
