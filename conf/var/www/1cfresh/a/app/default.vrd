@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<point 
+    xmlns="http://v8.1c.ru/8.2/virtual-resource-system" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    base="/a/<--ibname-->" 
+    ib="Srvr=&quot;<--server_name-->&quot;;Ref=&quot;<--ibname-->&quot;;">
+    <zones>
+        <zone specify="false" safe="true"/>
+        <zone specify="true" safe="true"/>
+    </zones>    
+</point>

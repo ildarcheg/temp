@@ -1,0 +1,10 @@
+Alias "/a/'$solution_base_name'" "/var/www/1cfresh/a/<--ibname-->"# Application External Publication (/a/<--ibname-->) 
+Alias "/a/'$solution_base_name'" "/var/www/1cfresh/a/<--ibname-->"
+<Directory "/var/www/1cfresh/a/<--ibname-->/">
+    AllowOverride All
+    Options None
+    Order allow,deny
+    Allow from all
+    SetHandler 1c-application
+    ManagedApplicationDescriptor "/var/www/1cfresh/a/<--ibname-->/default.vrd"
+</Directory>
